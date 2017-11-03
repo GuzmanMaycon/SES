@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-11-2017 a las 20:35:46
+-- Tiempo de generación: 03-11-2017 a las 17:13:40
 -- Versión del servidor: 10.1.9-MariaDB
 -- Versión de PHP: 5.6.15
 
@@ -61,7 +61,33 @@ INSERT INTO `cliente` (`id`, `documento`, `nombres`, `ap_paterno`, `ap_materno`,
 (1, '71834023', 'Erick', 'Huanca', 'Tiburcio', 'Av. Los Prados 5066', 1, '5285250', 'cororeo@mail.com', ''),
 (2, '81632153', 'Floriponcio', 'Huarcaya', 'Preciado', 'Av. Los Prados 2915', 1, '715632', 'magaly@mail.com', ''),
 (3, '51321598', 'El bryam', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
-(4, '65465486', 'Javier', 'Elera', 'Culque', 'Avenida San Judas 666', 2, '124124124', 'quiensoy@mail.com', '');
+(4, '65465486', 'Javier', 'Elera', 'Culque', 'Avenida San Judas 666', 2, '124124124', 'quiensoy@mail.com', ''),
+(5, '51335598', 'Edwin', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(6, '23412341', 'Abel', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(7, '51671578', 'Cristian', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(8, '51321498', 'Magaly', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(9, '51354798', 'Percy', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(10, '51571598', 'Ana', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(11, '51398598', 'Luis', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(12, '51324298', 'Monica', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(13, '51321329', 'Milena', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(14, '46784678', 'Valeria', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(15, '53321598', 'Fresia', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(16, '58621598', 'Erickson', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(17, '51321236', 'Joaquin', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(18, '51495598', 'Gustav', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(19, '51247298', 'Freddy', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(20, '51343548', 'Kremlin', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(21, '24561598', 'Shany', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(22, '34573567', 'Pato', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(23, '24562456', 'Edwar', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(24, '24564568', 'Take', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(25, '57895789', 'Wiwi', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(26, '62432456', 'Pedro', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(27, '57892425', 'Randy', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(28, '12351345', 'Edgar', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(29, '35672234', 'Rosa', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', ''),
+(30, '89046572', 'Maria', 'Huaracas', 'Principe', 'Calle San Chullpi 3464', 1, '8746541', 'juezmiguel@mail.com', '');
 
 -- --------------------------------------------------------
 
@@ -155,7 +181,11 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `username`, `password`, `nombre`, `ap_paterno`, `ap_materno`, `rol`) VALUES
-(1, 'exxel', '12345', 'exxel', 'elera', 'ato', 1);
+(1, 'exxel', '12345', 'exxel', 'elera', 'ato', 1),
+(2, 'takeshi', '12345', 'takeshi', 'farro', 'hinoshita', 2),
+(3, 'diego', '12345', 'diego', 'guerra', 'cruzado', 2),
+(4, 'jorge', '12345', 'jorge ', 'duran', 'bustincio', 2),
+(5, 'maycon', '12345', 'maycon', 'guzman', 'oscategui', 2);
 
 --
 -- Índices para tablas volcadas
@@ -223,7 +253,7 @@ ALTER TABLE `archivo`
 -- AUTO_INCREMENT de la tabla `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 --
 -- AUTO_INCREMENT de la tabla `sesion_fotografica`
 --
@@ -243,7 +273,7 @@ ALTER TABLE `tipo_servicios`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- Restricciones para tablas volcadas
 --
