@@ -10,63 +10,6 @@
  	include("models/config.php");
    	session_start();
     ?>
-	<div class="container" id="registrarCliente">
-		<button type="button" class="Registrar_usuario btn btn-info1" data-toggle="modal" data-target="#registrar_cliente">Registrar Nuevo Cliente</button>
-		<div class="modal fade" id="registrar_cliente" role="dialog">
-			<div class="modal-dialog">
-		      	<div class="modal-content">
-		        	<div class="modal-header">
-			          <button type="button" class="close" data-dismiss="modal">&times;</button>
-			          <h1 class="modal-title"><b>Registrar nuevo cliente</b></h1>
-		        	</div>
-		        	<div class="modal-body">
-			         <form action="insertar.php" method="POST" style="padding-bottom: 40px;">
-						<div class=" col-xs-12 col-md-12 input-content sinpa_sm">
-							<h4 style="float: left;" class="col-md-5"><b>Nombres </b><span>:</span></h4>
-							<input name="nombres" class="col-md-6" id="nombres" style="float: left;" cols="30" rows="1">
-						</div>
-						<div class=" col-xs-12 col-md-12 input-content sinpa_sm">
-							<h4 style="float: left;" class="col-md-5"><b>Apellido Paterno </b><span>:</span></h4>
-							<input name="ape_paterno" class="col-md-6" id="ape_paterno" style="float: left;" cols="30" rows="1">
-						</div>
-						<div class=" col-xs-12 col-md-12 input-content sinpa_sm">
-							<h4 style="float: left;" class="col-md-5"><b>Apellido Materno </b><span>:</span></h4>
-							<input name="ape_materno" class="col-md-6" id="ape_materno" style="float: left;" cols="30" rows="1">
-						</div>
-						<div class=" col-xs-12 col-md-12 input-content sinpa_sm" >
-							<h4 style="float: left;" class="col-md-5"><b>Tipo de Documento </b><span>:</span></h4>
-							<select class="col-md-6" id="tipo_documento">
-								<option value="0">Seleccionar Documento</option>
-								<?php 
-							    	$sql="SELECT * FROM tipo_docs";
-							    	$result = mysqli_query($db,$sql);
-			   						while($row = mysqli_fetch_array($result)) {
-								?>	   
-			   					<option value="<?php echo $row["id"];?>"><?php echo $row["nombre"]; ?></option>
-								<?php    				
-			   						}
-						     	?>
-							</select>
-						</div>
-						<div class=" col-xs-12 col-md-12 input-content sinpa_sm" >
-							<h4 style="float: left;" class="col-md-5"><b>N° Documento </b><span>:</span></h4>
-							<input type="text" class="col-md-6"  maxlength=506" name="num_documento" style="float: left;" id="num_documento" rows="1">
-						</div>
-						<div class=" col-xs-12 col-md-12 input-content sinpa_sm" >
-							<h4 style="float: left;" class="col-md-5"><b>Celular </b><span>:</span></h4>
-							<input type="text" class="col-md-6"  maxlength="20" name="num_celular" style="float: left;" id="num_celular" rows="1">
-						</div>
-						<input type="submit" name="registrar_usuario">
-					</form>
-					<br><br><br><br><br>
-			        </div>
-			        <div class="modal-footer">
-			           
-			        </div>
-		      	</div>
-		   	</div>
-		</div>
-	</div>
 	<div class="container sinpa">
 		<h1>Buscador de Clientes</h1>
 		<br>
