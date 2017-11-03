@@ -1,0 +1,517 @@
+/* Login */
+body {
+    padding-top: 20px;
+}
+.login_header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.login_container{
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #fffff;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #FFC500;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #FFC500;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+/*Header*/
+
+
+
+
+
+
+
+
+
+
+header*/
+#dni_cliente,
+#dni_cliente1,
+#nombres_completos{
+	resize: none;
+}
+button{
+    color: #efb309 !important;
+    background-color: #171714 ;
+    border-color: #8a8371 ;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+#registrar_cliente .modal-footer a{
+	color: #efb309 !important;
+    background-color: #171714;
+    padding: 10px;
+    border-radius: 5px
+}
+#agregarServicio .modal-footer input{
+	color: #efb309 !important;
+    background-color: #171714;
+    padding: 10px;
+    border-radius: 5px
+}
+.agregar_servicios_vista .input-content{
+	margin-bottom: 10px;
+}
+.agregar_servicios_vista{
+	padding-bottom: 50px;
+}
+.individual_opciones span{
+	margin-right: 20px
+}
+.file-input{
+	padding-top: 50px;
+}
+.subir_archivos p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.btn_crear_servicio{
+	text-align: right;
+}
+#agregarServicio .modal-footer a{
+	color: #efb309 !important;
+    background-color: #171714;
+    padding: 10px;
+    border-radius: 5px
+}
+#buscarCliente .modal-footer a{
+	color: #efb309 !important;
+    background-color: #171714;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left:10px;
+}
+#registrar_cliente .modal-body{
+	padding-bottom: 150px;
+}
+#registrar_cliente .input-content h4{
+	font-size: 18px;
+}
+#registrar_cliente .input-content h4 span{
+	float: right;
+	font-weight: 600;
+}
+#registrar_cliente .input-content select{
+	margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 0;
+    border-bottom: 1px solid #eae5e5;
+    border-left: 0;
+    border-right: 0;
+}
+#myModal3 .modal-body {
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+.navbar {
+	background-color: white;
+}
+.modal-title{
+	font-size: 25px;
+	text-align: center;
+}
+.modal a {
+	cursor: pointer;
+	text-decoration: none;
+}
+.btn_atras{
+	float: left;
+}
+.btn_siguiente{
+
+	float: right;
+}
+.buscador-resultado button{
+	border: 0;
+	background-color: white;
+}
+.buscador-resultado a{
+	cursor: pointer;
+}
+#myModal3 .modal-body select{
+	margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 0;
+    border-bottom: 1px solid #eae5e5;
+    border-left: 0;
+    border-right: 0;	
+}
+.Registrar_usuario{
+	z-index: 9999;
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	right: 0;
+	border-radius: 0 !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	margin-bottom: 0 !important;
+	left: 0;
+	bottom: 0;
+}
+#myModal3 .modal-body button{	
+    float: right;
+    position: relative;
+}
+}
+#myModal3 .modal-body{
+	padding-bottom: 70px;
+}
+.sinpa{
+	padding-left: 0;
+	padding-right: 0;
+}
+.navbar{
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.color1{
+	height: 2px;
+	background-color: #403C42;
+	width: 50%;
+	float:left;
+}
+.color2{
+	height: 2px;
+	background-color: #FFC500;
+	width: 50%;
+	float: left;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #f1cb42;
+}
+.navbar-default .navbar-toggle {
+    border-color: #f1cb42;
+    background-color: #f1cb42;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+/*footer*/
+
+
+/*Inicio*/
+.inicio{
+	text-align: center;
+}
+.
+imagen-inicio{
+	width: 100%;
+}
+
+/*Cliente*/
+.modal-body	{
+	
+}
+.sinpa{
+	padding-left: 0;
+	padding-right: 0;
+}
+.agregarServicio_info{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#agregarServicio .modal-body{
+	padding-bottom: 120px;
+}
+.multiselec_service select{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.multiselec_service div{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#buscarCliente .modal-body{
+	padding-bottom: 100px;
+}
+
+.div2_services p{
+	padding-left: 15px;
+}
+
+/*buscador*/
+.buscador{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+input[type="date"]{
+	line-height: inherit;
+}
+.buscador .input-content p{
+	font-weight: 600;
+}
+.buscador .input-content{
+	margin-bottom: 10px;
+}
+.buscador input{	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right: 0;
+	border-top:0;
+	border-left: 0;
+}
+.buscador button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 0;
+	background-color: black;
+	color: #faae00;
+	border-radius: 6px;
+}
+.buscador h1{
+	margin-top: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.btn-info1,
+.btn-info2 {
+	color: #efb309 !important;
+    background-color: #171714 !important;
+    border-color: #8a8371 !important;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+/*buscador clientes*/
+.vista_clientes{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.vista_clientes .input-content p{
+	font-weight: 600;
+}
+.vista_clientes .input-content{
+	margin-bottom: 10px;
+}
+.vista_clientes input{	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right: 0;
+	border-top:0;
+	border-left: 0;
+}
+#agregarServicio .modal-body .btn_atras,
+#agregarServicio .modal-body .btn_siguiente {
+	margin-top: 30px;
+	background-color: black;
+	color: #efb309;
+	padding: 6px;
+	border-radius:5px;
+}
+#buscarCliente .modal-footer{
+	    margin-top: 42px;
+}
+#buscarCliente .modal-body .btn_atras,
+#buscarCliente .modal-body .btn_siguiente {
+	margin-top: 30px;
+	background-color: black;
+	color: #efb309;
+	padding: 6px;
+	border-radius:5px;
+}
+
+.vista_clientes button{
+}
+.vista_clientes h1{
+	margin-top: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.buscador_cliente input.buscador_cliente_submit{
+	color: #efb309 !important;
+    background-color: #171714;
+    padding: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buscador_cliente .tipo_doc_busqueda{
+	padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.buscar_nombre input{
+	margin-bottom: 39px;
+}
+
+
+
+
+
+
+/*footer*/
+.footer-espaciado{
+	margin-top: 30px;	
+    padding-bottom: 55px;
+}
+
+@media (min-width: 300px){
+	.navbar-nav {
+	    float: left;
+	    margin: 0;
+	}
+	.footer-text{
+		padding-top: 10px;
+		text-align: center;
+	}
+	
+}
+
+@media (min-width: 440px){
+
+
+}
+
+@media (min-width: 768px){
+
+	.footer-text{
+		text-align: left;
+	}
+	.navbar-nav {
+	    float: none;
+	    margin: auto;
+	    width: 455px;
+	}	
+	.footer-right{
+		float:right;
+
+	}
+}
+@media (max-width: 991px){
+
+
+}
+@media (min-width: 992px){
+	.btn-info1 {
+	    margin-left: -10px;
+	    margin-right: 10px;
+	}
+	.btn-info2 {
+	    margin-left: 10px;
+	    margin-right: -10px;
+	}
+}
+@media (min-width: 1024px){
+
+
+}
+@media (min-width: 1200px){
+
+
+}
+@media (min-width: 1248px){
+
+
+}
