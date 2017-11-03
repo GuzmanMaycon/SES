@@ -31,7 +31,7 @@
 					        <th><b>#</b></th>
 					        <th><b>Nombre</b></th>
 					        <th><b>N° Documento</b></th>
-					        <th><b>Correo electrónico</b></th>
+					        <th><b>Dirección</b></th>
 					        <th><b>Teléfono</b></th>
 					        <th><b>E-mail</b></th>
 					        <td width="50px"><b>Agregar Servicio</b></td>
