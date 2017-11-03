@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="col-xs-12 vista_clientes">
-
+<?php include 'tpl/header.php'; ?>
 <?php 
  	include("models/config.php");
    	session_start();
@@ -129,7 +129,7 @@
 					</div>
 
 					<a data-dismiss="modal" class="btn_atras">Atrás</a>
-	         		<input class="btn_siguiente" type="submit" value="Siguiente">
+	         		<input class="btn_siguiente" type="submita" value="Siguiente">
 				</form>
 	          	<br><br>
 	        </div>
@@ -171,7 +171,7 @@
 						
 					</div>
 					<a data-dismiss="modal" class="btn_atras">Atrás</a>
-	         		<input class="btn_siguiente" type="submit" value="Siguiente">
+	         		<input class="btn_siguiente" type="submita" value="Siguiente">
 				</form>
 	          	<br><br>
 	        </div>
@@ -183,6 +183,7 @@
 	</div>
 </div>
 </body>
+<?php include 'tpl/footer.php'; ?>
 </html>
 
 <script language="javascript">
