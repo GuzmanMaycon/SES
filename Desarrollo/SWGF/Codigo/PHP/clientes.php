@@ -34,6 +34,7 @@
 					        <th><b>Dirección</b></th>
 					        <th><b>Teléfono</b></th>
 					        <th><b>E-mail</b></th>
+					        <th><b>Clasificación</b></th>
 					        <td width="50px"><b>Agregar Servicio</b></td>
 					        <td width="50px"><b>Buscar</b></td>
 					    </tr>
@@ -83,6 +84,7 @@
 					        <td><?php echo $row["direccion"];?></td>
 					        <td><?php echo $row["telefono"];?></td>
 					        <td><?php echo $row["email1"];?></td>
+					        <td><?php echo $row["clasificacion"];?></td>
 					        <td><center><a  data-toggle="modal" class="abrir-reg" documento="<?php echo $row["documento"];?>" nombre="<?php echo $row["nombres"]." ".$row["ap_paterno"]." ".$row["ap_materno"];?>">Agregar</a></center></td>
 						    <td><center><a  data-toggle="modal" class="abrir-search" documento="<?php echo $row["documento"];?>" nombre="<?php echo $row["nombres"]." ".$row["ap_paterno"]." ".$row["ap_materno"];?>">Buscar</a></center></td>
 						</tr>
